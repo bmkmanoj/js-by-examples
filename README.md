@@ -1,2 +1,3 @@
-# js-by-example
-Learn JavaScript by examples
+# JavaScript by Examples
+
+Understand the various concepts in JavaScript by code snippets. 
