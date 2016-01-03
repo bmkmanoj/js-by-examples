@@ -40,5 +40,7 @@
 
 ######Links
 1. [MDN on var](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Statements/var)
+2. [MDN on 'use strict'](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Strict_mode)
+3. [Stackoverflow question on strict mode](http://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it)
 
 
