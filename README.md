@@ -35,7 +35,7 @@ This is the list of initial contributors, we will try to keep this updated as an
 * [Bhanuchander Rao](https://github.com/bhanu09)
 * [Nithin Sastry](https://github.com/nithinsastry)
 * [Gowrishankar Naidu Karri](https://github.com/naniaryan)
-* [Sumanth Puri](https://github.com/bmkmanoj/js-by-example)
+* [Sumanth Puri](https://github.com/smnth90)
 * [Manoj Kumar Batula](https://github.com/bmkmanoj)
 
 
