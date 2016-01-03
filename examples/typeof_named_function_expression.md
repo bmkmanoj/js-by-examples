@@ -48,7 +48,7 @@ Uncaught ReferenceError: namedFuncExp is not defined(…)
 
 Never ever do this, will leave it to you to figure out why.
 
-	```js
+```js	
 	(function () {
 	
 		var func = function namedFuncExp(){ 
@@ -59,7 +59,6 @@ Never ever do this, will leave it to you to figure out why.
 		func();
 	})();
 	```
-
 
 ###### Links
 
