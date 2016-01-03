@@ -4,7 +4,8 @@
 
 ######Q: What would be the Output?
 
-```
+```js
+
 function printHi() {
 
     var myVar = 5; 
