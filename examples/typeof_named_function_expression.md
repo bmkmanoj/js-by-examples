@@ -58,7 +58,8 @@ Never ever do this, will leave it to you to figure out why.
 	
 		func();
 	})();
-	```
+
+```
 
 ###### Links
 
