@@ -25,7 +25,7 @@
 
 ######Explanation
 
-1. It seems like the return statement at #`1` should return immidiately, ignoring rest of the code below it. But that is not what happening here.
+1. It seems like the return statement at #`1` should return immediately, ignoring rest of the code below it. But that is not what happening here.
 2. To understand the output, you need to understand a concept called *hoisting* (for both variable and function). Function declarations and variable declarations are hoisted to the top of the scope. In this case, the scope is at `func` level. Considering this, we can say that the following code mimicks (and not to be taken literally) the hoisting aspect/behaviour.
 
 	```js
