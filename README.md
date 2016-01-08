@@ -38,6 +38,11 @@ This is the list of initial contributors, we will try to keep this updated as an
 * [Sumanth Puri](https://github.com/smnth90)
 * [Manoj Kumar Batula](https://github.com/bmkmanoj)
 
+###### TODO
+
+1. Organize the items by categories and provide the links/index them.
+2. Include jsfiddle links for the code samples
+3. Include samples explaining ES6 features.
 
 ##### License
 
