@@ -52,7 +52,7 @@
 
 ######Suggestions
 
-1. Do not declare the functions or the variables within the conditional blocks as JS does not ensure block scope. 
+1. Do not declare the functions or the variables within the conditional blocks as JS does not ensure block scope. In fact, going by JS specs function declarations are not allowed within the conditional blocks, however different browsers allow (and interpret) them and hence, we do not get the error.
 2. If required, use function expression instead within the conditional blocks.
 
 ######Links
