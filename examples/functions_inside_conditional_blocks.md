@@ -47,7 +47,7 @@
 
 1. There are two types of functions inside the `if else` blocks. The `innerFunc` is the commonly known function declaration and `innerFuncExpr` is the function expression. At any point of time, only one of the `if` or `else` block should get executed, in this case the `if` block at #`1`. 
 2. But the first `console.log` output for the invocation at #`7` suggests as if the `else` block `innerFunc` is getting executed. To understand this behaviour, we have to know the concept of JavaScript Hoisting. Here though the function `innerFunc` is declared within both the `if` and the `else` block, the JS engine hoists the function declarations to the top of the enclosing function.
-3. Efectively there is only one function declaration and that is the one which JS engine encounters last during the parsing phase. So, in this case the else block `innerFunc` overwrites the `if` block declaratio, irrespective of where the declarations are within the conditional blocks, there is only one `innerFunc` declaration and hence the output of the invocation at #`7`
+3. Efectively there is only one function declaration and that is the one which JS engine encounters last during the parsing phase. So, in this case the else block `innerFunc` overwrites the `if` block declaration, irrespective of where the declarations are within the conditional blocks, there is only one `innerFunc` declaration and hence the output of the invocation at #`7`
 4. The `innerFuncExpr` is the function expression, which does not get hoisted to the top of the enclosing function scope. So, we see the appropriate `console.log` output for the invocation at #`8`.
 
 ######Suggestions
