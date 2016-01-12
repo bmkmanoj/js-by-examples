@@ -87,3 +87,4 @@
 2. [Dave Herman on Closure in loop](http://calculist.blogspot.com/2005/12/gotcha-gotcha.html)
 3. [Stackoverflow question on closures](http://stackoverflow.com/questions/111102/how-do-javascript-closures-work)
 4. [Stackoverflow question on closures in loop](http://stackoverflow.com/questions/750486/javascript-closure-inside-loops-simple-practical-example/19323214#19323214)
+5. [JSFiddle for closures in loop](https://jsfiddle.net/davidojedalopez/jvhw9846/)
