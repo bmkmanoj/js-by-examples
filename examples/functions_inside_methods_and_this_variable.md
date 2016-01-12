@@ -76,6 +76,7 @@
 		myself.printMyNickNames();
 	
 	```
+
 ######Links
 
 1. [StackOverflow question on that equals to this](http://stackoverflow.com/questions/4886632/what-does-var-that-this-mean-in-javascript?rq=1)
