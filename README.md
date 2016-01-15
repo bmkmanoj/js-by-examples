@@ -2,7 +2,20 @@
 
 ##### What is this?
 
-Understand the nitty gritties of the language by actually looking at code snippets and asking the right (or wrong) questions - the whats, whys and hows. The repository is a collection of code samples containing the required explanations of working of the code sample.
+Understand the nitty gritties of the language by actually looking at code snippets and asking the right (or wrong) questions - the whats, whys and hows. The repository is a collection of code samples containing the required explanations of working of the code sample. 
+
+There is no particular list/order as of now, but here are things (gotchas /corner cases/ concepts ) particularly we are looking to include eventually.
+1. Functions 
+2. Objects and Arrays
+3. Scopes and Closures
+4. Prototype inheritance
+5. Bind, Call, Apply and this variable
+6. Functional programming concepts
+7. Promises and async programming
+8. Iterators and Generators
+9. ES6 specific features
+10.Coersion
+11.Common Patterns
 
 ##### Why this approach? 
 
