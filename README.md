@@ -32,7 +32,7 @@ Yes and No. Perhaps the code snippets are all there already, or you may find a v
 
 ##### How can I help?
 
-If you find (and believe) any information available here erroneous, please report them as issues or create pull requests. We are all ears for additional suggestions, feedback and new content as long as it follows the format that we are using.
+If you find (and believe) any information available here erroneous, please report them as issues or create pull requests. We are all ears for additional suggestions, feedback and new content as long as it follows the format that we are using. You can also star this repo if you like the content. :) 
 
 ##### What is the format?
 
