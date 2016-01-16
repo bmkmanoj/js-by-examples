@@ -4,7 +4,7 @@
 
 Understand the nitty gritties of the language by actually looking at code snippets and asking the right (or wrong) questions - the whats, whys and hows. The repository is a collection of code samples containing the required explanations of working of the code sample. 
 
-There is no particular list/order as of now, but here are things (gotchas /corner cases/ concepts ) particularly we are looking to include eventually.
+There is no particular list/order as of now, But here are the things (concepts and not so obvious language features/behaviour) particularly we are planning to include eventually.
 
 1.  Functions 
 2.  Objects and Arrays
