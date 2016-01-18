@@ -38,3 +38,7 @@
 3. **Scope chaining :** When a variable is not found in a function scope, the execution environment traverses to an outer scope to find the same. Otherwise, the variable which is found in the current scope is used.
 
 	So in the above code, the statement var name = "Jane" declares a variable "name" which is local to the function scope. So the outer variable which has the same variable name is ignored, and the variable in current scope is used. Hence the second statement **console.log("The name is : " + name);** logs a value **Jane**.
+	
+######Links:
+
+1. [JavaScript variable scope and hoisting](http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/)
