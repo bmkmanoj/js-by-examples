@@ -1,4 +1,4 @@
-## When Stringify happen implicitly
+## When Stringify happens implicitly
 
 ######Q: What is the output?
 
