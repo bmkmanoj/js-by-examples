@@ -32,7 +32,7 @@
 
 1. The first two `console.log` prints may be obvious as they are basic invocation of `console.log` without any delay. But should not the log at #`3` print just after #`2` as the time delay provided there is 0 msecs?
 2. To understand this, we need to understand how events and timers are handled in JS through event loop.  The browser basically has a place holder for queuing up the events before processing them. So `setTimeout` puts the execution of the anonymous function into the event queue. After that, it is the browsers responsibility to run it when it gets free.
-3. So, when a value of zero is passed as the second argument to `setTimeout`, it attempts to execute the specified function “as soon as possible” and execution of the function is placed on the event queue to occur on the next timer tick. Note, though, that this is not immediate; the function is not executed until the next tick. That’s why in the above example, the log #`4` occurs before the call to #`3` (since the `console.log` is invoked via `setTimeout`, so it is slightly delayed).
+3. So, when a value of zero is passed as the second argument to `setTimeout`, though it seems like it should get executed immediately, actually the execution of the function is placed on the event queue to occur on the next timer tick. So the function is not executed until the next tick. That’s why the log at #`4` occurs before the log at #`3` (since the `console.log` is invoked via `setTimeout`, so it is slightly delayed).
 
 
 ###### Links
