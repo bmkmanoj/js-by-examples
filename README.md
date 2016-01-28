@@ -44,13 +44,15 @@ We would like this repository to grow and be the one-stop-repo for all the JavaS
 
 ##### Who are the contributors?
 
-This is the list of initial contributors, we will try to keep this updated as and when we recieve contributions from the community.
+List of initial contributors.
 
 * [Bhanuchander Rao](https://github.com/bhanu09)
 * [Nithin Sastry](https://github.com/nithinsastry)
 * [Gowrishankar Naidu Karri](https://github.com/naniaryan)
 * [Sumanth Puri](https://github.com/smnth90)
 * [Manoj Kumar Batula](https://github.com/bmkmanoj)
+
+Contributions on the Github Repo can be looked at [here](https://github.com/bmkmanoj/js-by-examples/graphs/contributors).
 
 ###### TODO
 
