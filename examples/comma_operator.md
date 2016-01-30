@@ -5,10 +5,13 @@
 ```js
 
 	(function() {
-		var myVarOne = [10, 20, 30, 40][1, 2, 3];		var myVarTwo = [10, 20, 30, 40][3, 2, 1];
-		console.log("myVarOne = "+myVarOne);
+		var myVarOne = [10, 20, 30, 40][1, 2, 3];
+		var myVarTwo = [10, 20, 30, 40][3, 2, 1];
+
+		console.log("myVarOne = "+myVarOne);
 		console.log("myVarTwo = "+myVarTwo);
-	})();	￼	
+	})();
+	￼	
 ```
 
 ######A: 
@@ -25,7 +28,8 @@
 2. When we look at `myVarOne`,  the last value `[1, 2, 3]` is considered or evaluated as 3. Hence like an array `myVar[1, 2, 3]` as if it were equivalent to `myVar[3]`. however, this is not entirely true. The parsing happens as follows: 
 	
 	```
-		var myVarOne = [10, 20, 30, 40][((1, 2), 3)];		var myVarTwo = [10, 20, 30, 40][((3, 2), 1)];
+		var myVarOne = [10, 20, 30, 40][((1, 2), 3)];
+		var myVarTwo = [10, 20, 30, 40][((3, 2), 1)];
 	
 	```
 3. When [1,2,3,4][1,2,3] is parsed, [ is understood as the start of the array or object property accessor. Hence the expression inside the accessor is simply treated as a vanilla expression with the comma operator. The confusion mainly lies in that the reader expects [1,2,3] to be an array literal as well.
@@ -34,3 +38,4 @@
 ######Link
 
 1.	[MDN on comma operator](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Comma_Operator)
+2.      [Single var pattern](http://sixrevisions.com/javascript/single-var-pattern)
