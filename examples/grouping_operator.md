@@ -35,3 +35,4 @@
 ######Link
 
 1.	[MDN on grouping operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Grouping)
+2.	[Ben Alman on IIFE](http://benalman.com/news/2010/11/immediately-invoked-function-expression/)
