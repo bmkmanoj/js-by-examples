@@ -38,3 +38,5 @@
 3. The #`1` is a technique used to cache the outer function's `this` reference to another variable (like `self` / `that`) and by doing so, it becomes available to the inner function via lexical scope chain.
 
 
+######Links:
+1. (Stackoverflow on self equals to this pattern)[http://stackoverflow.com/questions/337878/var-self-this]
