@@ -39,4 +39,4 @@
 
 
 ######Links:
-1. (Stackoverflow on self equals to this pattern)[http://stackoverflow.com/questions/337878/var-self-this]
+1. [Stackoverflow on self equals to this pattern](http://stackoverflow.com/questions/337878/var-self-this)
