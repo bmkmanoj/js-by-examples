@@ -32,7 +32,7 @@
 		var myVarTwo = [10, 20, 30, 40][((3, 2), 1)];
 	
 	```
-3. When [1,2,3,4][1,2,3] is parsed, [ is understood as the start of the array or object property accessor. Hence the expression inside the accessor is simply treated as a vanilla expression with the comma operator. The confusion mainly lies in that the reader expects [1,2,3] to be an array literal as well.
+3. When [10,20,30,40][1,2,3] is parsed, [ is understood as the start of the array or object property accessor. Hence the expression inside the accessor is simply treated as a vanilla expression with the comma operator. The confusion mainly lies in that the reader expects [1,2,3] to be an array literal as well.
 4. The comma operator can be mostly seen as used in the multiple variable declaration a.k.a. single var pattern.
 
 ######Link
