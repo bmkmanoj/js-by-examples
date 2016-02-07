@@ -2,9 +2,9 @@
 
 ##### What is this?
 
-Understand the nitty gritties of the language by actually looking at code snippets and asking the right (or wrong) questions - the whats, whys and hows. The repository is a collection of code samples containing the required explanations of working of the code sample. 
+Understand the nitty gritties of the language by actually looking at code snippets and asking the right (or wrong) questions - the whats, whys and hows. The repository is a collection of code samples containing working explanations. 
 
-There is no particular list/order as of now, But here are the things (concepts and not so obvious language features/behaviour) particularly we are planning to include eventually.
+There is no particular list/order as of now, but here are the concepts and not so obvious language features/behaviour we are planning to include eventually.
 
 1.  Functions 
 2.  Objects and Arrays
@@ -24,7 +24,7 @@ First things first, this is not a replacement for conventional learning by books
 
 ##### How did we get here?
 
-This is a result of the IM group chats within our team at work. We thought it might be helpful to the community as well, and hence this repository.
+This is a result of IM group chats within our team at work. We thought it might be helpful to the community as well, hence this repository.
 
 ##### Is this content not already available online?
 
@@ -32,7 +32,7 @@ Yes and No. Perhaps the code snippets are all there already, or you may find a v
 
 ##### How can I help?
 
-If you find (and believe) any information available here erroneous, please report them as issues or create pull requests. We are all ears for additional suggestions, feedback and new content as long as it follows the format that we are using. You can also star this repo if you like the content. :) 
+If you find (and believe) any information available here is erroneous, please report them as issues or create pull requests. We are all ears for additional suggestions, feedback and new content as long as it follows the format that we are using. You can also star this repo if you like the content. :) 
 
 ##### What is the format?
 
