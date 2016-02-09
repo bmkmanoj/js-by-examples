@@ -52,7 +52,7 @@ List of initial contributors.
 * [Sumanth Puri](https://github.com/smnth90)
 * [Manoj Kumar Batula](https://github.com/bmkmanoj)
 
-Contributions on the Github Repo can be looked at [here](https://github.com/bmkmanoj/js-by-examples/graphs/contributors).
+Contributions on the GitHub Repo can be looked at [here](https://github.com/bmkmanoj/js-by-examples/graphs/contributors).
 
 ###### TODO
 
@@ -63,7 +63,3 @@ Contributions on the Github Repo can be looked at [here](https://github.com/bmkm
 ##### License
 
 The content of this project itself is licensed under the [Creative Commons Attribution 3.0 license](http://creativecommons.org/licenses/by/3.0/us/deed.en_US) and the underlying source code used to format and display that content is licensed under the [MIT license](http://opensource.org/licenses/mit-license.php).
-
-
-
-
