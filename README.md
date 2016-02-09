@@ -52,7 +52,7 @@ List of initial contributors.
 * [Sumanth Puri](https://github.com/smnth90)
 * [Manoj Kumar Batula](https://github.com/bmkmanoj)
 
-Contributions on the Github Repo can be looked at [here](https://github.com/bmkmanoj/js-by-examples/graphs/contributors).
+Contributions on the GitHub Repo can be looked at [here](https://github.com/bmkmanoj/js-by-examples/graphs/contributors).
 
 ###### TODO
 
