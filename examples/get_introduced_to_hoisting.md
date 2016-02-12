@@ -45,6 +45,22 @@
 	```
 3. A thing to note here is that, we have the same variable name `varOrFunc` being used for `function` name and for `var` declaration - in such scenarios, the function declaration takes precedence over the variable declaration and hence the line #`2.1` essentially has no effect on the output and we see that the `varOrFunc` is actually a function type in the `console.log`.
 4. Also, only the variable and function declarations are hoisted. Function expressions are not.
+5. Function declarations takes precedence over only variable declaration but not variable assignment.
+     
+       ```js
+       		
+              var varOrFunc = "String Assigned";
+              function varOrFunc(){return "Function Executed";}
+              console.log("typeof of varOrFunc is "+typeof varOrFunc);
+
+ 	```
+
+   	```
+
+		output: typeof of varOrFunc is String
+
+	```
 
 ######Links
 1. [JS Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
+2. [JavaScript Variable Scope and Hoisting Explained] (http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/)
