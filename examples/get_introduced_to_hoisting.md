@@ -47,19 +47,16 @@
 4. Also, only the variable and function declarations are hoisted. Function expressions are not.
 5. Function declarations takes precedence over only variable declaration but not variable assignment.
      
-       ```js
-       		
-              var varOrFunc = "String Assigned";
-              function varOrFunc(){return "Function Executed";}
-              console.log("typeof of varOrFunc is "+typeof varOrFunc);
-
+	```js
+	
+		var varOrFunc = "String Assigned";
+		
+		function varOrFunc() {
+			return "Function Executed";
+		}
+        
+        console.log("typeof of varOrFunc is " + typeof varOrFunc);  // output: typeof of varOrFunc is String
  	```
-
-   	```
-
-		output: typeof of varOrFunc is String
-
-	```
 
 ######Links
 1. [JS Scoping and Hoisting](http://www.adequatelygood.com/JavaScript-Scoping-and-Hoisting.html)
