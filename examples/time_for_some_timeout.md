@@ -38,4 +38,4 @@
 
 ###### Links
 1. [Events and timing in-depth](http://javascript.info/tutorial/events-and-timing-depth)
-2. [Timeout jsfiddle example](http://jsfiddle.net/mcasanova/pUeue/3573/)
+2. [Timeout jsfiddle example](https://jsfiddle.net/mcasanova/2bt1jx1h/)
