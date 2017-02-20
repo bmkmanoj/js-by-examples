@@ -14,7 +14,8 @@
     		console.log(3)			// 3
     	}, 0); 
     	console.log(4);				// 4
-	})();￼	
+	})();
+￼	
 ```
 
 ######A: 
@@ -37,3 +38,4 @@
 
 ###### Links
 1. [Events and timing in-depth](http://javascript.info/tutorial/events-and-timing-depth)
+2. [Timeout jsfiddle example](http://jsfiddle.net/mcasanova/pUeue/3573/)
