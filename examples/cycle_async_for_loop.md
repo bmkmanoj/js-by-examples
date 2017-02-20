@@ -42,7 +42,7 @@
 
 ######Calling the function:
 
-```		
+```js
 $('input[type=button]').click( function() {
         async(10, function(loop) {
 
@@ -67,7 +67,8 @@ $('input[type=button]').click( function() {
 ######Explanation
 
 1. The decoupling of the caller from the response allows for the JavaScript runtime to do other things while waiting for your asynchronous operation to complete and their callbacks to fire.
-
+2. The Async function recives the number of iterations in the i variable.
+3. While index value is lower than i, the loop function  will continue to run until callback is called.
 
 ######Link
 
