@@ -1,6 +1,6 @@
 ## Closures in loop
 
-######Q: What is the output?
+###### Q: What is the output?
 
 
 ```js
@@ -31,7 +31,7 @@
 	
 ```
 
-######A: 
+###### A: 
 
 ```
 		0, 2
@@ -40,7 +40,7 @@
 
 ```
 
-######Explanation
+###### Explanation
 
 1. This popularly is known as "closure in loop" issue in JavaScript and beginners to this language invariably encounter this. We need to understand the concept of closure to undestand the output. Closures are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created.
 
@@ -81,7 +81,7 @@
 
 4. Do not fret if you still are not clear about how the closures work, it takes sometime to come to terms with closures. So, do read on.
 
-######Links
+###### Links
 
 1. [MDN on JS Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 2. [Dave Herman on Closure in loop](http://calculist.blogspot.com/2005/12/gotcha-gotcha.html)
