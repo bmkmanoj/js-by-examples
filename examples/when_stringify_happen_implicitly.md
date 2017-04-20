@@ -1,6 +1,6 @@
 ## When Stringify happens implicitly
 
-######Q: What is the output?
+###### Q: What is the output?
 
 ```js
 
@@ -15,7 +15,7 @@
 
 ```
 
-######A: 
+###### A: 
 
 
 ```		
@@ -25,7 +25,7 @@
 ```
 
 
-######Explanation
+###### Explanation
 
 
 1. When setting an object property, JavaScript will internally convert the parameter/key using its `toString` and since here, we have objects as keys and since these object do not have their own implementation of `toString`, the default `Object.toString` method will be invoked.
