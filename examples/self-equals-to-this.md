@@ -1,6 +1,6 @@
 ## Self equals to this
 
-######Q: What is the output?
+###### Q: What is the output?
 
 ```js
 
@@ -20,7 +20,7 @@
 
 ```
 
-######A: 
+###### A: 
 
 ```	
 	
@@ -31,12 +31,12 @@
 	
 ```
 
-######Explanation
+###### Explanation
 
 1. The outer function output is straight forward. Both `this` and `self` refer to `myObject` and therefore both can properly reference and access myName.
 2. However, in the inner function (the IIFE), the `this` is not referring to the `myObject` anymore, its the inner function scope rather. So, `this.myName` is `undefined` within the inner function, whereas the reference to the local variable `self` remains in the scope and hence, accessible there.
 3. The #`1` is a technique used to cache the outer function's `this` reference to another variable (like `self` / `that`) and by doing so, it becomes available to the inner function via lexical scope chain.
 
 
-######Links:
+###### Links:
 1. [Stackoverflow on self equals to this pattern](http://stackoverflow.com/questions/337878/var-self-this)
