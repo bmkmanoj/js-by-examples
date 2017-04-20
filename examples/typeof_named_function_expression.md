@@ -1,6 +1,6 @@
 ## Named function expression and typeof 
 
-######Q: What would be the Output?
+###### Q: What would be the Output?
 ```js
 (function () {
 
@@ -15,7 +15,7 @@
 
 })();
 ```
-######A:
+###### A:
 
 ```
 function
@@ -23,7 +23,7 @@ number
 undefined 
 Uncaught ReferenceError: namedFuncExp is not defined(…)
 ```
-######Explanation
+###### Explanation
 
 1. The first 2 `console.log`s (#`1` and #`2`) are straight forward, we got what we expected. If you are not clear, here is whats happening. The `typeof func` basically refers to the variable type, which is `function` and the `typeof func()` prints the `typeof` returned value from the function, which is a number (`23`). 
 
