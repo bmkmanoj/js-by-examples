@@ -1,6 +1,6 @@
 ## Extracted method and bind
 
-######Q: What is the output?
+###### Q: What is the output?
 
 ```js
 
@@ -18,7 +18,7 @@
 	
 ```
 
-######A: 
+###### A: 
 
 ```	
 	
@@ -27,7 +27,7 @@
 
 ```
 
-######Explanation
+###### Explanation
 
 1. The `console.log` at #`3` prints `undefined` as we have extracted the method from the `myObject` object. So when we invoke `countryInfo`, effectively we are invoking `getMyCountryInfo` method of `myObject` in the global context. In this case, the `this` variable is the `window` object.
 2. As the property `myCountryName` doesn't exist in the `window` object, we see the `undefined` getting printed at #`3`. However, the printed output at #`4` is as expected. Here, the `this` variable is set to `myObject` and hence the appropriate info is getting printed.
