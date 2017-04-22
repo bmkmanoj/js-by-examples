@@ -1,6 +1,6 @@
 ## Time for some Timeout
 
-######Q: What is the output?
+###### Q: What is the output?
 
 ```js
 
@@ -18,7 +18,7 @@
 ￼	
 ```
 
-######A: 
+###### A: 
 
 ```	
 	
@@ -29,7 +29,7 @@
 
 ```
 
-######Explanation
+###### Explanation
 
 1. The first two `console.log` prints may be obvious as they are basic invocation of `console.log` without any delay. But should not the log at #`3` print just after #`2` as the time delay provided there is 0 msecs?
 2. To understand this, we need to understand how events and timers are handled in JS through event loop.  The browser basically has a place holder for queuing up the events before processing them. So `setTimeout` puts the execution of the anonymous function into the event queue. After that, it is the browsers responsibility to run it when it gets free.
