@@ -1,6 +1,6 @@
 ## Asynchronous for cycle in JavaScript
 
-######Q: What is the output?
+###### Q: What is the output?
 
 ```js
     function async(i, func, callback) {
@@ -40,7 +40,7 @@
 	￼	
 ```
 
-######Calling the function:
+###### Calling the function:
 
 ```js
 $('input[type=button]').click( function() {
@@ -64,12 +64,12 @@ $('input[type=button]').click( function() {
 
 ```
 
-######Explanation
+###### Explanation
 
 1. The decoupling of the caller from the response allows for the JavaScript runtime to do other things while waiting for your asynchronous operation to complete and their callbacks to fire.
 2. The Async function recives the number of iterations in the i variable.
 3. While index value is lower than i, the loop function  will continue to run until callback is called.
 
-######Link
+###### Link
 
 1.	    [JsFiddle Example](https://jsfiddle.net/mcasanova/1awzgvL6/4/)
