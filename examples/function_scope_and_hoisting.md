@@ -1,6 +1,6 @@
 ## Function scope and hoisting
 
-######Q: What is the output?
+###### Q: What is the output?
 
 ```js
 
@@ -16,7 +16,7 @@
 
 ```
 
-######A:
+###### A:
 
 ```
 	The name is : undefined
@@ -24,7 +24,7 @@
 
 ```
 
-######Explanation:
+###### Explanation:
 
 1. **Hoisting :** Hoisting takes place during the parsing phase of executing a JS code. In this phase, all the variables declarations are taken and a default value of "undefined" is assigned to them. Note that the code is not run in this phase, so any assignment of a value to a variable will not be executed.
 
@@ -39,6 +39,6 @@
 
 	So in the above code, the statement var name = "Jane" declares a variable "name" which is local to the function scope. So the outer variable which has the same variable name is ignored, and the variable in current scope is used. Hence the second statement **console.log("The name is : " + name);** logs a value **Jane**.
 	
-######Links:
+###### Links:
 
 1. [JavaScript variable scope and hoisting](http://javascriptissexy.com/javascript-variable-scope-and-hoisting-explained/)
