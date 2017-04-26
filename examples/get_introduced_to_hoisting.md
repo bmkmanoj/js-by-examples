@@ -6,13 +6,12 @@
 ```js
 	
 	function func() {
-    	return varOrFunc;		// 1
-    	varOrFunc = 1;			// 2
-    	
-    	function varOrFunc() {	// 3
-    		console.log("Inside varOrFunc")
-    	}
-    	var varOrFunc = '2';	// 4
+		return varOrFunc;		// 1
+		varOrFunc = 1;			// 2
+		function varOrFunc() {		// 3
+    			console.log("Inside varOrFunc")
+    		}
+    		var varOrFunc = '2';		// 4
 	}
 	console.log(typeof func());
 	
@@ -33,12 +32,12 @@
 		function func() {
 			// hoisted
 			function varOrFunc() {	// 3
-    			console.log("Inside varOrFunc")
-    		}
-    		var varOrFunc;			// 2.1
-    		return varOrFunc;		// 1
-	    	varOrFunc = 1;			// 2.2
-	    	varOrFunc = '2';		// 4
+    				console.log("Inside varOrFunc")
+    			}
+	    		var varOrFunc;			// 2.1
+    			return varOrFunc;		// 1
+	    		varOrFunc = 1;			// 2.2
+	    		varOrFunc = '2';		// 4
 		}
 		console.log(typeof func());
 	
@@ -55,7 +54,7 @@
 			return "Function Executed";
 		}
         
-        console.log("typeof of varOrFunc is " + typeof varOrFunc);  // output: typeof of varOrFunc is String
+        	console.log("typeof of varOrFunc is " + typeof varOrFunc);  // output: typeof of varOrFunc is String
  	```
 
 ###### Links
