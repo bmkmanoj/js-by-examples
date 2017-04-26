@@ -5,10 +5,10 @@
 ```js
 
 	var myObject = {
-    	myCountryName: 'India',
-    	getMyCountryName: function (){			   // 1
-        	return this.myCountryName;
-    	}
+    		myCountryName: 'India',
+    		getMyCountryName: function (){			   // 1
+        		return this.myCountryName;
+    		}
 	};
 
 	var countryInfo = myObject.getMyCountryName;  // 2
