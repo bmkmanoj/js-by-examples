@@ -32,15 +32,15 @@
 		function func() {
 			// hoisted
 			function varOrFunc() {	// 3
-    				console.log("Inside varOrFunc")
-    			}
-	    		var varOrFunc;			// 2.1
-    			return varOrFunc;		// 1
-	    		varOrFunc = 1;			// 2.2
-	    		varOrFunc = '2';		// 4
+				console.log("Inside varOrFunc")
+			}
+			var varOrFunc;			// 2.1
+			return varOrFunc;// 1
+			varOrFunc = 1;			// 2.2
+			varOrFunc = '2';		// 4
 		}
 		console.log(typeof func());
-	
+
 	```
 3. A thing to note here is that, we have the same variable name `varOrFunc` being used for `function` name and for `var` declaration - in such scenarios, the function declaration takes precedence over the variable declaration and hence the line #`2.1` essentially has no effect on the output and we see that the `varOrFunc` is actually a function type in the `console.log`.
 4. Also, only the variable and function declarations are hoisted. Function expressions are not.
