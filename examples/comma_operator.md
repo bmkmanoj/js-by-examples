@@ -24,8 +24,8 @@
 
 ###### Explanation
 
-1. At first look it may seem like two arrays in conjunction. But the second brackets are evaluated using comma operater and not considered like an array. The first one is indeed an array.
-2. When we look at `myVarOne`,  the last value `[1, 2, 3]` is considered or evaluated as 3. Hence like an array `myVar[1, 2, 3]` as if it were equivalent to `myVar[3]`. however, this is not entirely true. The parsing happens as follows: 
+1. At first look it may seem like two arrays in conjunction. But the second brackets are evaluated using comma operator and not considered like an array. The first one is indeed an array.
+2. When we look at `myVarOne`,  the last value `[1, 2, 3]` is considered or evaluated as 3. Hence like an array `myVar[1, 2, 3]` as if it were equivalent to `myVar[3]`. However, this is not entirely true. The parsing happens as follows: 
 	
 	```
 		var myVarOne = [10, 20, 30, 40][((1, 2), 3)];
