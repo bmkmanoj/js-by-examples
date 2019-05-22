@@ -2,9 +2,9 @@
 
 ##### What is this?
 
-Understand the nitty gritties of the language by actually looking at code snippets and asking the right (or wrong) questions - the whats, whys and hows. The repository is a collection of code samples containing working explanations. 
+JavaScript by Examples was created for new users to learn about the JavaScript language by reviewing real code snippets and by asking questions. This repository is a collection of code samples containing working explanations. 
 
-There is no particular list/order as of now, but here are the concepts and not so obvious language features/behaviour we are planning to include eventually.
+Currently, the code snippets are not in any particular order. Here are the concepts, language features and behavior we are planning to include:
 
 1.  Functions 
 2.  Objects and Arrays
@@ -18,29 +18,29 @@ There is no particular list/order as of now, but here are the concepts and not s
 10. Coersion
 11. Common Patterns
 
-##### Why this approach? 
+##### Why use this approach? 
 
-First things first, this is not a replacement for conventional learning by books, blogs and countless experimentations. This is just an add-on to the exisiting set of learning paths. We realized, the best way to validate our understanding about the language is to discuss with fellow members, brainstorm and educate others.
+The best way to understand a language is to view actual code, form discussions, brainstorm and educate each other. JavaScript by Examples is not a replacement for conventional learning (e.g., reading books, blogs, and self-experimentation) — rather, it  should be viewed as a suppliment to exisiting learning paths. 
 
 ##### How did we get here?
 
-This is a result of IM group chats within our team at work. We thought it might be helpful to the community as well, hence this repository.
+The idea for JavaScript by Examples came from a series of group chats within our team at work. We thought it might be helpful to the community as well.
 
 ##### Is this content not already available online?
 
-Yes and No. Perhaps the code snippets are all there already, or you may find a variation of these. However, the approach is unique as we have a Q&A format and a way of clarifying things through explanations given to the working of the snippets. The content and the code examples will have appropriate attributions wherever applicable. We would really appreciate an attibution from you, if you are using/including any of this repository code examples within your work. 
+It is likely that similar code snippets exist, but what makes this repository unique is the 'question/answer' format, and how we have clarified our examples with explanations. The code examples should have appropriate attributions wherever applicable. We appreciate attibution if you are using our code examples within your work. 
 
 ##### How can I help?
 
-If you find (and believe) any information available here is erroneous, please report them as issues or create pull requests. We are all ears for additional suggestions, feedback and new content as long as it follows the format that we are using. You can also star this repo if you like the content. :) 
+If you believe any information here is erroneous, please report it as an issue or create a pull request. We welcome suggestions, feedback and new content, as long as it follows the format that we are using. You can also star this repo if you like the content. :)
 
 ##### What is the format?
 
-Most of the code samples are either in `.md` or `.js` files. The markdown file format follows the question, answer and explanation format. If there are any usful references, links or attributions, we put them too.
+Most code samples are either in `.md` or `.js` files. The markdown file format follows the 'question/answer/explanation' format. We will include useful references, links or attributions.
 
 ##### What is the future plan?
 
-We would like this repository to grow and be the one-stop-repo for all the JavaScript enthusiasts. For that, we would need all the help we can from the community and people like YOU. 
+We would like this repository to grow and be the premeire repository for JavaScript enthusiasts. To achieve this goal, we need all the help we can from the community and people like **you**. 
 
 ##### Who are the contributors?
 
