@@ -2,7 +2,7 @@
 
 ###### Q: What is the output?
 
-
+      
 ```js
 	
 	function func() {
