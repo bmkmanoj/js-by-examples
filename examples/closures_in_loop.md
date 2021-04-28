@@ -11,18 +11,18 @@
 	function init() {						// 0
 		for (var i = 0; i < 3; i++) {
     				
-	    	var x = data[i];				// 1
- 	    	var innerFunc = function() { 	// 2
- 	    		return x;
- 	    	};
+	    		var x = data[i];				// 1
+ 	    		var innerFunc = function() { 			// 2
+ 	    			return x;
+ 	    		};
  
- 			funcs.push(innerFunc);			// 3
+ 			funcs.push(innerFunc);				// 3
  		}
 	}
 	
 	function run() {						// 4
 		for (var i = 0; i < 3; i++) {
-		    console.log(data[i] + ", " +  funcs[i]());   // 5
+		    console.log(data[i] + ", " +  funcs[i]());   	// 5
   		}
 	}
 	
@@ -54,21 +54,21 @@
 		function init() {						// 0
 			for (var i = 0; i < 3; i++) {
     				
-	    		var x = data[i];				// 1
- 	    		var innerFunc = function() { 	// 2
- 	    			var temp = x;
- 	    			return function() {
- 	    				return temp;
- 	    			}; 
- 	    		}();
+	    			var x = data[i];				// 1
+ 	    			var innerFunc = function() { 			// 2
+ 	    				var temp = x;
+ 	    				return function() {
+ 	    					return temp;
+ 	    				}; 
+ 	    			}();
  
- 				funcs.push(innerFunc);			// 3
+ 				funcs.push(innerFunc);				// 3
  			}
 		}
 	
 		function run() {						// 4
 			for (var i = 0; i < 3; i++) {
-			    console.log(data[i] + ", " +  funcs[i]());   // 5
+			    console.log(data[i] + ", " +  funcs[i]());  	// 5
   			}
 		}
 	
