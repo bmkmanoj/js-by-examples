@@ -4,8 +4,8 @@
 
 ```js
 
-	var myVar = 1;
-	var output = (function(){
+	let myVar = 1;
+	let output = (function(){
 		delete myVar;
 		return myVar;
 	})();
@@ -14,7 +14,7 @@
 	
 	function MyFunc(){}
 	MyFunc.prototype.bar = 42;
-	var myFunc = new MyFunc();
+	const myFunc = new MyFunc();
 
 	delete myFunc.bar;	
 	console.log(myFunc.bar);	// 2
